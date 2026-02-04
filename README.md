@@ -116,17 +116,3 @@ Developed as part of GenAI Intern assignment submission.
 
 
 ---
-
-## ✅ Step 4: Save File
-`Ctrl + S`
-
----
-
-## ✅ Step 5: Git Commit & Push
-
-Terminal me (project root):
-
-```bash
-git add README.md
-git commit -m "Add complete README with setup and architecture"
-git push origin main
