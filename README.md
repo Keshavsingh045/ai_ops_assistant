@@ -65,15 +65,15 @@ git clone https://github.com/<your-username>/ai_ops_assistant.git
 cd ai_ops_assistant
 
 
-2. Create and activate virtual environment
+**2. Create and activate virtual environment**
        python -m venv venv
 venv\Scripts\activate
 
-3. Install dependencies
+**3. Install dependencies**
 pip install -r requirements.txt
 
 
-4. Setup environment variables
+**4. Setup environment variables**
 
 Create a .env file in the root directory:
 
@@ -81,10 +81,10 @@ OPENAI_API_KEY=your_openai_api_key
 WEATHER_API_KEY=your_weather_api_key
 
 
-5. Run the project
+**5. Run the project**
 python main.py
 
-Example Prompts
+**Example Prompts**
 
 Try the following inputs:
 
@@ -96,8 +96,17 @@ Get current temperature for Bangalore
 
 Check weather in New York
 
+**Known Limitations / Tradeoffs**
 
-One Command Run
+Currently supports limited tools (weather only)
+
+CLI-based interface (no UI)
+
+LLM calls depend on API quota availability
+
+Tool execution is sequential
+
+**One Command Run**
 python main.py
 
 
